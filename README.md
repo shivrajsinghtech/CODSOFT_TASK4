@@ -40,6 +40,10 @@ The data is the **SMS Spam Collection** dataset (`data/spam.csv`, extracted from
 \*403 rows are exact duplicates in the raw file. A further 11 become duplicates once
 leading and trailing whitespace is trimmed and overflow text is merged.
 
+**Source & licence:** *SMS Spam Collection v.1* by Tiago A. Almeida and José María Gómez Hidalgo, distributed via the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/228/sms+spam+collection) under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licence. The messages are real 2000s-era SMS, so spam texts include the phone numbers, short codes and URLs used by spammers; the data is used here only for research and education.
+
+> Almeida, T.A., Gómez Hidalgo, J.M., Yamakami, A. *Contributions to the Study of SMS Spam Filtering: New Collection and Results.* Proceedings of the 2011 ACM Symposium on Document Engineering (DocEng'11), Mountain View, CA, USA, 2011.
+
 **EDA highlights:** spam messages average **138 characters / 15.4 digits**, against **71
 characters / 0.3 digits** for legitimate messages. Spam is dominated by words like
 *free, txt, stop, text, mobile, reply, claim, prize, cash*.
